@@ -1,0 +1,661 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5d2edb2c-ac7e-435f-ae04-6809c3a8fc26")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xx_IEEE:74HC237"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.62 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HC237"
+				(at 17.78 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74HC237_0_0"
+				(text "&"
+					(at -8.636 1.524 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "EN"
+					(at -1.016 1.524 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 20.32 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC237_0_1"
+				(rectangle
+					(start -12.7 15.24)
+					(end 12.7 -30.48)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 7.62) (xy -5.08 7.62) (xy -5.08 -5.08) (xy -12.7 -5.08) (xy -12.7 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 -35.56 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC237_1_1"
+				(pin input line
+					(at -20.32 10.16 0)
+					(length 7.62)
+					(name "~{GL}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 5.08 0)
+					(length 7.62)
+					(name "~{G2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -2.54 0)
+					(length 7.62)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -12.7 0)
+					(length 7.62)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -17.78 0)
+					(length 7.62)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -22.86 0)
+					(length 7.62)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 10.16 180)
+					(length 7.62)
+					(name "Y0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 5.08 180)
+					(length 7.62)
+					(name "Y1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 0 180)
+					(length 7.62)
+					(name "Y2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -5.08 180)
+					(length 7.62)
+					(name "Y3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -10.16 180)
+					(length 7.62)
+					(name "Y4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -15.24 180)
+					(length 7.62)
+					(name "Y5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -20.32 180)
+					(length 7.62)
+					(name "Y6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -25.4 180)
+					(length 7.62)
+					(name "Y7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 105.41 53.34) (xy 133.35 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a74c1df-1b6b-4f2b-8d9c-2f2745aa91cc")
+	)
+	(wire
+		(pts
+			(xy 133.35 53.34) (xy 133.35 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fafe47f-9a59-44d8-b0db-8c2e375aeb11")
+	)
+	(wire
+		(pts
+			(xy 105.41 48.26) (xy 133.35 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79148f62-75cc-4f38-b3b9-83e54bff5a53")
+	)
+	(wire
+		(pts
+			(xy 85.09 88.9) (xy 153.67 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6a2ca7-3d9c-40ac-974f-c28a899f0d3f")
+	)
+	(symbol
+		(lib_id "74xx_IEEE:74HC237")
+		(at 153.67 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "438d3fa5-cec7-449c-be14-490f667e9624")
+		(property "Reference" "U2"
+			(at 155.8133 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC237"
+			(at 155.8133 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "fb3023d8-b30a-4967-953e-d912d1daa220")
+		)
+		(pin "14"
+			(uuid "ba78c3dc-239e-4315-9bd1-93494676fa0f")
+		)
+		(pin "3"
+			(uuid "a38253ca-2345-4dea-8a03-1ca84ac45f7a")
+		)
+		(pin "9"
+			(uuid "4b8612de-e4ac-4841-b786-c4b766b0e598")
+		)
+		(pin "7"
+			(uuid "60418af3-b07f-4c24-8e5f-2283fffc4de5")
+		)
+		(pin "5"
+			(uuid "52fac6a2-b62e-43e9-a18a-d43ac2b2fc06")
+		)
+		(pin "1"
+			(uuid "16ab4d9b-7f7b-465e-9816-73a747e6b984")
+		)
+		(pin "6"
+			(uuid "a1bf07b4-2b21-481f-af09-11451adef657")
+		)
+		(pin "2"
+			(uuid "cca3b062-4cc3-4069-9999-a28a7dfe4e39")
+		)
+		(pin "16"
+			(uuid "f9b8811f-e778-4dde-8226-1e0617ea4529")
+		)
+		(pin "8"
+			(uuid "1a45cc15-cc0e-49b1-95f0-c0ebd59da745")
+		)
+		(pin "10"
+			(uuid "a18541a8-24d7-462b-96e8-9b3548e1638f")
+		)
+		(pin "13"
+			(uuid "59f9000d-f3c0-498c-b763-ddf7deccce15")
+		)
+		(pin "12"
+			(uuid "0fff4c66-5f74-47e5-935a-b5aaf3d38742")
+		)
+		(pin "11"
+			(uuid "8dec70e6-af7b-4750-81be-2e01357a4d90")
+		)
+		(pin "4"
+			(uuid "d291073c-fa0a-4713-ba1a-a615e6d644b7")
+		)
+		(instances
+			(project ""
+				(path "/5d2edb2c-ac7e-435f-ae04-6809c3a8fc26"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx_IEEE:74HC237")
+		(at 85.09 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e1baebc-3538-48aa-89cb-ab7039ddb45d")
+		(property "Reference" "U1"
+			(at 87.2333 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC237"
+			(at 87.2333 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "663c81b3-ba7f-4950-b0fb-61723ce03d96")
+		)
+		(pin "2"
+			(uuid "fffcbe37-d75d-4859-881a-8368b5cdb63d")
+		)
+		(pin "9"
+			(uuid "dfd658c4-ad0b-4242-9099-4981c5497575")
+		)
+		(pin "3"
+			(uuid "201daa16-de9d-4c42-b9bc-a7e99da4ec86")
+		)
+		(pin "8"
+			(uuid "1ba5cfdc-3468-4be2-b9e7-8087f6718ccd")
+		)
+		(pin "6"
+			(uuid "554b1288-1131-4225-86d0-21802732df2f")
+		)
+		(pin "14"
+			(uuid "46aa2292-02f2-49a6-bc8e-21fafa78067b")
+		)
+		(pin "4"
+			(uuid "e7cb50b0-09cd-41e8-b7cb-4a0456e3c663")
+		)
+		(pin "1"
+			(uuid "4d46e964-4a8e-49d5-ac5d-abd4027ad135")
+		)
+		(pin "5"
+			(uuid "5671fea0-0413-45cd-9055-93be7e0701e9")
+		)
+		(pin "12"
+			(uuid "dd695bad-7aef-437a-a34e-896c2ec51691")
+		)
+		(pin "11"
+			(uuid "49a86b6f-9a91-465f-9e03-8c6d48e28173")
+		)
+		(pin "10"
+			(uuid "7cfac09b-237f-42af-b3b8-fea2a1158317")
+		)
+		(pin "15"
+			(uuid "15bc6258-7dc6-43ce-a899-197c725b478e")
+		)
+		(pin "13"
+			(uuid "f4dc1cc3-83b7-488e-ba89-8f5088162af0")
+		)
+		(pin "7"
+			(uuid "57c347ff-8ea2-4f8a-b4ad-8916179b5371")
+		)
+		(instances
+			(project ""
+				(path "/5d2edb2c-ac7e-435f-ae04-6809c3a8fc26"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
